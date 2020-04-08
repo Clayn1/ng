@@ -1,0 +1,7 @@
+<div>
+  <h1>
+    {{user.id}}
+    {{user.username}}
+  </h1>
+  <app-post *ngFor="let post of user.posts" [post]="post"></app-post>
+</div>

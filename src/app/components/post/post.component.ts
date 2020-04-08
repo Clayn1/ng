@@ -1,6 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {CommentModel} from '../../models/CommentModel';
-import {PostModel} from '../../models/PostModel';
+import {PostModel} from '../../../models/PostModel';
 
 @Component({
   selector: 'app-post',
@@ -8,6 +7,7 @@ import {PostModel} from '../../models/PostModel';
   styleUrls: ['./post.component.css']
 })
 export class PostComponent {
+
   @Input()
   post: PostModel;
 
